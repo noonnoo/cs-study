@@ -10,12 +10,12 @@
 * 최대 힙  
 부모노드 값이 자식노드 값보다 크거나 같은 완전 이진 트리
 * 최소 힙  
-부모노드 값이 자식노드 값보다 작거나 같은 완전 이진 트리
+부모노드 값이 자식노드 값보다 작거나 같은 완전 이진 트리  
 <img src="../images/noonnoo_heap1.png" style="width:600px"></br>  
 
 ## heap 구현 (최대힙 기준)
 * 삽입 과정  
-  맨 끝에 삽입한 후 부모노드보다 큰 경우, 부모와 위치 변경
+  맨 끝에 삽입한 후 부모노드보다 큰 경우, 부모와 위치 변경  
 <img src="../images/noonnoo_heap2.png" style="width:600px"/></br>  
 ```cpp
 void insert(int heap[], int n, int val){
